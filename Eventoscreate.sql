@@ -27,7 +27,7 @@ ID_CATEGORIA
 create table CLIENTES (
    INE_CLIENTE          CHAR(10)             not null,
    CONTACTO_CLIENTE     CHAR(10)             not null,
-   NOMBRE_CLIENTE       CHAR(500)            not null,
+   NOMBRE_CLIENTE       VARCHAR(500)            not null,
    constraint PK_CLIENTES primary key (INE_CLIENTE)
 );
 
